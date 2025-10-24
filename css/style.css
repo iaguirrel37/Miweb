@@ -78,5 +78,37 @@ p {
     color: #666;
 }
 
+.form-container {
+    background-color: #49496f; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.form-label-purple {
+    color: #b28cff;
+    font-weight: bold;
+}
+
+
+.form-input-purple {
+    border-color: #6f42c1 !important; 
+    background-color: #33334d !important;
+    color: #ffffff !important; 
+}
+
+/* Botó */
+.form-btn-submit {
+    background-color: #6f42c1; 
+    border-color: #6f42c1;
+    font-weight: bold;
+    color: #ffffff; /* <-- AQUEST ÉS EL CANVI CLAU */
+    margin-top: 15px; 
+}
+
+
+.form-input-purple::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}
 
 
