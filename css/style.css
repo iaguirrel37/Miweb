@@ -62,9 +62,11 @@ nav ul li a:hover {
 /* Estils per a títols i paràgrafs */
 h1, h2 {
     color: #333;
+    margin: 5%;
 }
 
 p {
     color: #666;
 }
+
 
