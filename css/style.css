@@ -47,20 +47,38 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 /*Estils per carrousel*/
 .carousel-container {
+    background-color: #49496f ;
     width: 80%;           /* ancho del carrusel */
     margin: 40px auto;    /* centrado horizontal */
-    border: 3px solid black; /* borde negro */
+    border: 5px solid black; /* borde negro */
+    border-radius: 50px; 
     padding: 20px;        /* espacio dentro del borde */
     box-sizing: border-box;
   }
   
-  .carousel-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-family: 'Nunito Sans', sans-serif; /* fuente moderna */
-    color: #333;
+.carousel-title {
+    text-align:left ;
+    color: #b28cff !important;
+    margin: 20px;
   }
+
+.carousel-image {
+    width: 400px;
+    height: 600px;       /* altura fija para todas */
+    object-fit: cover;   /* recorta para no deformar */
+     /* bordes redondeados */
+}
+
+.carousel-text h3{
+    margin: 20px;   /* espacio debajo de la imagen */
+    color: #b28cff;
+} 
+
+.carousel-text p{
+    margin: 20px;    /* espacio debajo de la imagen */
+    padding: 20px; 
+    color: #b28cff;
+}
 
 
 
