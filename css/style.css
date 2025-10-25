@@ -11,6 +11,10 @@ body {
 
 /* Estils per a la navbar */
 
+.navbar {
+    background-color: #b28cff !important; /* mismo que formulario y columnas */
+}
+
 /* llama a toda la pagina con el "html" y aplica efectos en el scroll*/
 html {
     scroll-padding-top: 80px;
@@ -71,7 +75,24 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
 
+.col {
+    background-color: #33334d; /* mismo que el interior del input */
+    border: 2px solid #6f42c1; /* mismo borde lilac del input */
+    border-radius: 8px;
+    color: #b28cff; /* mismo color de texto que labels del formulario */
 
+}
+
+.card {
+    background-color: #33334d; /* mismo que el interior del input */
+    border: 2px solid #6f42c1; /* mismo borde lilac del input */
+    border-radius: 8px;
+    color: #b28cff; /* mismo color de texto que labels del formulario */
+}
+
+.card h5, .card p {
+    color: #b28cff; /* asegurar que título y texto sean lila */
+}
 
 
 /* Estils per a les files i columnes */
