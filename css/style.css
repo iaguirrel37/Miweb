@@ -2,9 +2,10 @@
 
 /* Reset de marges i padding */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Nunito Sans;
     margin: 0;
     padding: 0;
+   
 }
 
 /* Estils per a la navbar */
@@ -37,13 +38,12 @@ nav ul li a:hover {
 
 /*Estil per heather*/
 .heather {
-background: #8438d5 ;
+background: #6f42c1;
 color: #000000;
 text-align: center;
-padding: 60px 0;
+padding: 30px 0;
 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 /*Estils per carrousel*/
 .carousel-container {
@@ -63,6 +63,7 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 
 
+
 /* Estils per al contenidor principal */
 .container {
     max-width: 1200px;
@@ -70,13 +71,8 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
 
+
 /* Estils per a les files i columnes */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
 
 .col {
     flex: 1;
@@ -97,10 +93,14 @@ p {
     color: #666;
 }
 
+/*Estils er formulari*/
+
 .form-container {
     background-color: #49496f; 
     padding: 20px;
     border-radius: 8px;
+    max-width: 70%;    
+    margin: 40px auto;
 }
 
 
@@ -131,5 +131,23 @@ p {
 }
 
 
+/* Footer */
+.container-text-center {
+    padding-bottom: 40px;
+} 
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto; 
+}
 
 
