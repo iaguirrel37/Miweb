@@ -38,10 +38,10 @@ nav ul li a:hover {
 
 /*Estil per heather*/
 .heather {
-background: #6f42c1;
+background: #b28cff;
 color: #000000;
 text-align: center;
-padding: 30px 0;
+padding: 20px;
 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -90,6 +90,8 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
+
+
 /* Estils per a les files i columnes */
 
 .col {
@@ -97,15 +99,34 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     min-width: 300px;
     margin: 10px;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #49496f;
     border-radius: 8px;
 }
+
+
+/* Botones */
+.btn-primary {
+    background-color: #6f42c1; /* morado intenso */
+    border-color: #000;         /* borde negro */
+    color: #fff;
+}
+
+
+
 
 /* Estils per a títols i paràgrafs */
 h1, h2 {
     color: #333;
     margin: 5%;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 
 p {
     color: #666;
@@ -155,18 +176,11 @@ p {
 } 
 
 
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
 footer {
     text-align: center;
     margin-top: auto; 
 }
+
 
 
 
