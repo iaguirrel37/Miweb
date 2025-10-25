@@ -83,6 +83,20 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
 
+/* Centrar contenido dentro de cada card */
+.card-body {
+  display: flex;
+  flex-direction: column; /* apila título, texto y botón */
+  align-items: center;    /* centra horizontalmente */
+  text-align: center;     /* centra texto */
+}
+
+/* Centrar la tarjeta dentro de la columna */
+.col {
+  display: flex;           /* activa flex para centrar */
+  justify-content: center; /* centra la card horizontalmente */
+}
+
 .card {
     background-color: #33334d; /* mismo que el interior del input */
     border: 2px solid #6f42c1; /* mismo borde lilac del input */
@@ -183,6 +197,7 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
+
 
 
 
