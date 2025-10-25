@@ -1,4 +1,3 @@
-/* styles.css */
 
 
 /* Reset de marges i padding */
@@ -12,7 +11,7 @@ body {
 /* Estils per a la navbar */
 
 .navbar {
-    background-color: #b28cff !important; /* mismo que formulario y columnas */
+    background-color: #b28cff !important; 
 }
 
 /* llama a toda la pagina con el "html" y aplica efectos en el scroll*/
@@ -34,9 +33,9 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 /*Estils per carrousel*/
 .carousel-container {
     background-color: #49496f ;
-    width: 80%;           /* ancho del carrusel */
+    width: 80%;        
     margin: 40px auto;    /* centrado horizontal */
-    border: 5px solid black; /* borde negro */
+    border: 5px solid black; 
     border-radius: 50px; 
     padding: 20px;        /* espacio dentro del borde */
     box-sizing: border-box;
@@ -50,13 +49,13 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 .carousel-image {
     width: 400px;
-    height: 600px;       /* altura fija para todas */
+    height: 600px;       
     object-fit: cover;   /* recorta para no deformar */
-     /* bordes redondeados */
+
 }
 
 .carousel-text h3{
-    margin: 20px 0 10px 0;    /* espacio debajo de la imagen */
+    margin: 20px 0 10px 0;  
     color: #b28cff;
 } 
 
@@ -76,10 +75,10 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .col {
-    background-color: #33334d; /* mismo que el interior del input */
-    border: 3px solid black; /* mismo borde lilac del input */
+    background-color: #33334d; 
+    border: 3px solid black;
     border-radius: 8px;
-    color: #b28cff; /* mismo color de texto que labels del formulario */
+    color: #b28cff; 
 
 }
 
@@ -87,8 +86,8 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 .card-body {
   display: flex;
   flex-direction: column; /* apila título, texto y botón */
-  align-items: center;    /* centra horizontalmente */
-  text-align: center;     /* centra texto */
+  align-items: center;    
+  text-align: center;    
 }
 
 /* Centrar la tarjeta dentro de la columna */
@@ -98,15 +97,16 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card {
-    background-color: #33334d; /* mismo que el interior del input */
-    border: 2px solid #6f42c1; /* mismo borde lilac del input */
+    background-color: #33334d; 
+    border: 2px solid #6f42c1; 
     border-radius: 8px;
-    color: #b28cff; /* mismo color de texto que labels del formulario */
+    color: #b28cff; 
 }
 
 .card h5, .card p {
-    color: #b28cff; /* asegurar que título y texto sean lila */
+    color: #b28cff; 
 }
+
 
 
 /* Estils per a les files i columnes */
@@ -123,12 +123,10 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 /* Botones */
 .btn-primary {
-    background-color: #6f42c1; /* morado intenso */
-    border-color: #000;         /* borde negro */
+    background-color: #6f42c1; 
+    border-color: #000;       
     color: #fff;
 }
-
-
 
 
 /* Estils per a títols i paràgrafs */
@@ -150,6 +148,7 @@ p {
 }
 
 /*Estils er formulari*/
+
 .form-container {
     background-color: #49496f; 
     border: 3px solid black;
@@ -190,14 +189,15 @@ p {
 /* Footer */
 .container-text-center {
     padding-bottom: 40px;
+    
 } 
 
 
 footer {
     text-align: center;
     margin-top: auto; 
+    
 }
-
 
 
 
