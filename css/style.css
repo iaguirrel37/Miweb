@@ -44,6 +44,25 @@ padding: 60px 0;
 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+
+/*Estils per carrousel*/
+.carousel-container {
+    width: 80%;           /* ancho del carrusel */
+    margin: 40px auto;    /* centrado horizontal */
+    border: 3px solid black; /* borde negro */
+    padding: 20px;        /* espacio dentro del borde */
+    box-sizing: border-box;
+  }
+  
+  .carousel-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif; /* fuente moderna */
+    color: #333;
+  }
+
+
 /* Estils per al contenidor principal */
 .container {
     max-width: 1200px;
@@ -110,6 +129,7 @@ p {
 .form-input-purple::placeholder {
     color: rgba(255, 255, 255, 0.5); 
 }
+
 
 
 
