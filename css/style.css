@@ -70,13 +70,13 @@ text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-text h3{
-    margin: 20px;   /* espacio debajo de la imagen */
+    margin: 20px 0 10px 0;    /* espacio debajo de la imagen */
     color: #b28cff;
 } 
 
 .carousel-text p{
-    margin: 20px;    /* espacio debajo de la imagen */
-    padding: 20px; 
+   
+    margin: 0 0 40px 0; 
     color: #b28cff;
 }
 
@@ -167,5 +167,6 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
+
 
 
