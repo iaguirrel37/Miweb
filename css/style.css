@@ -177,7 +177,7 @@ p {
     background-color: #6f42c1; 
     border-color: #6f42c1;
     font-weight: bold;
-    color: #ffffff; 
+    color: #b28cff !important; 
     margin-top: 15px; 
 }
 
@@ -197,6 +197,7 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
+
 
 
 
