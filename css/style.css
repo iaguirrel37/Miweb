@@ -1,5 +1,11 @@
 /* styles.css */
 
+/* llama a toda la pagina con el "html" y aplica efectos en el scroll*/
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
 /* Reset de marges i padding */
 body {
     font-family: Nunito Sans;
@@ -180,6 +186,7 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
+
 
 
 
