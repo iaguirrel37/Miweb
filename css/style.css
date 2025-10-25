@@ -1,10 +1,5 @@
 /* styles.css */
 
-/* llama a toda la pagina con el "html" y aplica efectos en el scroll*/
-html {
-  scroll-padding-top: 80px;
-  scroll-behavior: smooth;
-}
 
 /* Reset de marges i padding */
 body {
@@ -15,32 +10,13 @@ body {
 }
 
 /* Estils per a la navbar */
-nav {
-    background-color: #ff6363;
-    padding: 15px;
-}
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
+/* llama a toda la pagina con el "html" y aplica efectos en el scroll*/
+html {
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+  }
 
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #007bff;
-}
 
 /*Estil per heather*/
 .heather {
@@ -186,8 +162,5 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
-
-
-
 
 
